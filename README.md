@@ -1,6 +1,6 @@
-## Olá, 
+# Olá, Mundo
 
-Eu tentei fazer esses testes prático na plataforma da Turing uma vez e não passei, agora eu refiz sozinha e consegui fazer!! 
+Eu tentei fazer esses testes prático na plataforma da Turing uma vez e não passei, agora eu refiz sozinha e consegui fazer!!
 
 Porém levou mais tempo do que eu gostaria, mas estamos aí!
 
@@ -18,13 +18,14 @@ Estou postando aqui para acompanhar o meu progresso!!
 Será usado como input a variavel $ops, que é um array de Strings.
 </br>
 As seguintes regras são aplicadas aos itens do array, eles podem ser:
+
 - Integer - Esse item somará ao total dos pontos;
 </br></br>
 - "+" - Esse item somará ao total de pontos, sendo que esse valor é a soma dos últimos dois números registrados;
 </br></br>
 - "D" - Esse item somará ao total de pontos, sendo que esse valor será o dobro do último valor registrado;
 </br></br>
-- "C" - Esse item torna inválida o último valor resgistrado. 
+- "C" - Esse item torna inválida o último valor resgistrado.
 
 Retornando a soma de todos os valores registrados.
 
@@ -51,32 +52,33 @@ Retorna a soma dos registros, ou seja 5 + 10 + 15 = 30.
 Será utilizado com input uma string $s que pode conter os caractéres "{", "}", "(", ")", "[" e/ou "]".
 
 Essa string deverá ser validada, sendo que as regras são:
+
 - O caracter de abertura deve ter seu respectivo carcater de fechamento;
-- O carcter de abertura deve ser fechado na ordem correta;
+- O caracter de abertura deve ser fechado na ordem correta;
 
 Exemplo 1: </br>
 input: $s = "()"
-output: valid; 
+output: valid;
 </br>
 
 Exemplo 2: </br>
 input: $s = "({[]})"
-output: valid; 
+output: valid;
 </br>
 
 Exemplo 3: </br>
 input: $s = "(]"
-output: invalid; 
+output: invalid;
 </br>
 
 Exemplo 4: </br>
 input: $s = "(])"
-output: invalid; 
+output: invalid;
 </br>
 
 Exemplo 5: </br>
 input: $s = "([]{})"
-output: valid; 
+output: valid;
 </br>
 
 :smirk:
