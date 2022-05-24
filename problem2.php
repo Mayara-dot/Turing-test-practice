@@ -7,6 +7,7 @@
  * ver se todo elemento que abre tem um 
  * elemento que fecha na ****ordem correta
  * 
+ * Problema 1 - Validação de parênteses / Valid Parentheses
  * 
  * Fazer um dicionario para valores de abertura e fechamento
  * para comparar se o cracter é de abertura ou fechamento e

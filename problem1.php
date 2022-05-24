@@ -2,6 +2,9 @@
 /**
  * @param String[] $ops - List of operations;
  * @return Integer -sum of scores after performing all opetation;
+ * 
+ * Problema 1 - Pontuação no jogo de Baseball / Baseball Game
+ * 
  */
 
 $ops = ["5", "2", "C", "D", "+"];
